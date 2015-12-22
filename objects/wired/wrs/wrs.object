@@ -1,0 +1,37 @@
+{
+  "objectName" : "yokai_wrs",
+  "colonyTags" : ["wired"],
+  "printable" : false,
+  "rarity" : "Rare",
+  "description" : "Use this object to refill your water supply.",
+  "shortdescription" : "Yokai Industries - Water Replenishment System",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 0,
+
+  "inventoryIcon" : "wrs_icon.png",
+  "orientations" : [
+    {
+      "image" : "wrs.png:<color>.off",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "logic.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "wrs.animation",
+
+  "animationParts" : {
+    "wrs" : "wrs.png"
+  },
+  "animationPosition" : [0, 0],
+
+  "inboundNodes" : [ [0, 0] ],
+
+  "interval" : 5
+}

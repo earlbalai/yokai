@@ -1,0 +1,11 @@
+{
+  "name" : "yokai",
+  "version" : "Development",
+  "metadata" : {
+    "displayName" : "Yokai Industries Mod",
+    "author" : "Earl Balai Jr",
+    "description" : "Adds a variety of cool addons.",
+    "support_url" : "N/A",
+    "version" : "0.1"
+  }
+}
