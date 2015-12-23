@@ -13,7 +13,7 @@
   "inventoryIcon" : "icon.png",
   "orientations" : [
     {
-      "image" : "relay.png",
+      "image" : "relay.png:off",
       "imagePosition" : [0, 0],
 
       "spaceScan" : 0.1,
@@ -22,6 +22,12 @@
   ],
 
   "scripts" : [ "relay.lua" ],
+
+  "animation" : "relay.animation",
+  "animationParts" : {
+    "relay" : "relay.png"
+  },
+  "animationPosition" : [0, 0],
 
   "inboundNodes" : [ [0, 0] ],
   "outboundNodes" : [ [1, 0] ]

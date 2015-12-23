@@ -1,0 +1,43 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "relayState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "frames" : 1
+          },
+          "on" : {
+            "frames" : 12,
+            "cycle" : 1.6,
+            "mode" : "loop"
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "relay" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "relayState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:on.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
