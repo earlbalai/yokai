@@ -1,7 +1,7 @@
 {
   "objectName" : "yokai_wrs",
   "colonyTags" : ["wired"],
-  "printable" : false,
+  "printable" : true,
   "rarity" : "Rare",
   "description" : "Use this object to refill your water supply.",
   "shortdescription" : "Yokai Industries - Water Replenishment System",

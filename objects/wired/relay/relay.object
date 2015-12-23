@@ -1,0 +1,28 @@
+{
+  "objectName" : "yokai_relay",
+  "colonyTags" : ["wired"],
+  "printable" : true,
+  "rarity" : "Common",
+  "description" : "Relay",
+  "shortdescription" : "Yokai Industries - Relay",
+  "race" : "generic",
+
+  "category" : "wire",
+  "price" : 0,
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "relay.png",
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [ "relay.lua" ],
+
+  "inboundNodes" : [ [0, 0] ],
+  "outboundNodes" : [ [1, 0] ]
+}

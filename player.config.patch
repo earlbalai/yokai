@@ -1,3 +1,4 @@
 [
-  { "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "yokai_wrs" } }
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "yokai_wrs" } },
+{ "op" : "add", "path" : "/defaultBlueprints/tier1/-", "value" : { "item" : "yokai_relay" } }
 ]
